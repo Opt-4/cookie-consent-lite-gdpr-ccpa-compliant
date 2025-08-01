@@ -1,0 +1,44 @@
+{
+  "name": "cookie-consent-lite/cookie-consent-lite",
+  "description": "A lightweight, GDPR & CCPA compliant cookie consent banner for WordPress",
+  "type": "wordpress-plugin",
+  "license": "GPL-2.0-or-later",
+  "authors": [
+    {
+      "name": "Your Name",
+      "email": "your.email@example.com",
+      "homepage": "https://yourwebsite.com"
+    }
+  ],
+  "homepage": "https://wordpress.org/plugins/cookie-consent-lite",
+  "support": {
+    "issues": "https://wordpress.org/support/plugin/cookie-consent-lite",
+    "forum": "https://wordpress.org/support/plugin/cookie-consent-lite",
+    "source": "https://github.com/yourusername/cookie-consent-lite"
+  },
+  "require": {
+    "php": ">=7.4",
+    "composer/installers": "^1.0 || ^2.0"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^9.0",
+    "wp-coding-standards/wpcs": "^2.3",
+    "phpcompatibility/phpcompatibility-wp": "^2.1"
+  },
+  "autoload": {
+    "classmap": [
+      "includes/"
+    ]
+  },
+  "scripts": {
+    "phpcs": "phpcs --standard=WordPress .",
+    "phpcbf": "phpcbf --standard=WordPress .",
+    "test": "phpunit"
+  },
+  "config": {
+    "allow-plugins": {
+      "composer/installers": true,
+      "dealerdirect/phpcodesniffer-composer-installer": true
+    }
+  }
+}

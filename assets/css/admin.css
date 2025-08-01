@@ -1,0 +1,672 @@
+/* Cookie Consent Lite - Admin Styles - Complete with Fixed Layout */
+
+.wrap {
+    max-width: none;
+}
+
+.ccl-admin-header {
+    background: #4CAF50;
+    color: white;
+    padding: 32px 40px;
+    border-radius: 12px;
+    margin: 20px 0 32px 0;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.ccl-admin-header h1 {
+    margin: 0 0 8px;
+    font-size: 24px;
+    font-weight: 500;
+    color: white;
+    letter-spacing: -0.02em;
+}
+
+.ccl-admin-header p {
+    margin: 0;
+    font-size: 15px;
+    opacity: 0.85;
+    font-weight: 400;
+    line-height: 1.5;
+}
+
+.ccl-admin-layout {
+    display: flex;
+    gap: 32px;
+    align-items: flex-start;
+}
+
+.ccl-admin-main {
+    flex: 1;
+}
+
+.ccl-admin-sidebar {
+    width: 320px;
+    flex-shrink: 0;
+}
+
+/* Settings Sections */
+.ccl-settings-section {
+    background: white;
+    border-radius: 12px;
+    border: 1px solid #e5e7eb;
+    margin-bottom: 24px;
+    overflow: hidden;
+}
+
+.ccl-settings-section h2 {
+    background: #111827;
+    color: white;
+    padding: 16px 24px;
+    margin: 0;
+    font-size: 16px;
+    font-weight: 500;
+    letter-spacing: -0.01em;
+}
+
+.ccl-section-description {
+    padding: 16px 24px 0;
+    margin: 0 0 16px;
+    color: #6b7280;
+    font-size: 14px;
+    line-height: 1.5;
+}
+
+/* Form Table */
+.ccl-form-table {
+    margin: 0;
+    border-collapse: separate;
+    border-spacing: 0;
+    width: 100%;
+}
+
+.ccl-form-table th {
+    background: #f9fafb;
+    border-bottom: 1px solid #e5e7eb;
+    padding: 20px 24px;
+    font-weight: 500;
+    color: #374151;
+    vertical-align: top;
+    width: 220px;
+    font-size: 14px;
+    text-align: left;
+}
+
+.ccl-form-table td {
+    padding: 20px 24px;
+    border-bottom: 1px solid #f3f4f6;
+    vertical-align: top;
+}
+
+.ccl-form-table tr:last-child th,
+.ccl-form-table tr:last-child td {
+    border-bottom: none;
+}
+
+/* Input Fields */
+.regular-text,
+.large-text {
+    border: 1px solid #d1d5db;
+    border-radius: 8px;
+    padding: 12px 16px;
+    font-size: 14px;
+    transition: all 0.2s ease;
+    width: 100%;
+    max-width: 400px;
+    background: white;
+}
+
+.regular-text:focus,
+.large-text:focus {
+    border-color: #4CAF50;
+    outline: none;
+    box-shadow: 0 0 0 3px rgba(76, 175, 80, 0.08);
+}
+
+.small-text {
+    border: 1px solid #d1d5db;
+    border-radius: 8px;
+    padding: 10px 12px;
+    font-size: 14px;
+    width: 80px;
+    transition: all 0.2s ease;
+    background: white;
+}
+
+.small-text:focus {
+    border-color: #4CAF50;
+    outline: none;
+    box-shadow: 0 0 0 3px rgba(76, 175, 80, 0.08);
+}
+
+/* Textarea */
+textarea.large-text {
+    min-height: 100px;
+    resize: vertical;
+    font-family: inherit;
+    line-height: 1.5;
+}
+
+/* Select Dropdown */
+select.regular-text {
+    background: white url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 20 20'%3e%3cpath stroke='%236b7280' stroke-linecap='round' stroke-linejoin='round' stroke-width='1.5' d='m6 8 4 4 4-4'/%3e%3c/svg%3e") no-repeat right 12px center/16px 16px;
+    appearance: none;
+    padding-right: 40px;
+}
+
+/* Admin Toggle Switches - Enhanced for Production */
+.ccl-admin-toggle {
+    position: relative;
+    display: inline-block;
+    width: 60px;
+    height: 32px;
+    cursor: pointer;
+    background: #ddd;
+    border-radius: 32px;
+    transition: background-color 0.3s ease;
+    vertical-align: middle;
+    margin-right: 12px;
+    border: 1px solid #ccc;
+}
+
+.ccl-admin-toggle input[type="checkbox"] {
+    opacity: 0;
+    width: 0;
+    height: 0;
+    position: absolute;
+    pointer-events: none;
+}
+
+.ccl-admin-toggle-slider {
+    position: absolute;
+    top: 2px;
+    left: 2px;
+    width: 28px;
+    height: 28px;
+    background: white;
+    border-radius: 50%;
+    transition: all 0.3s ease;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+    transform: translateX(0);
+}
+
+.ccl-admin-toggle-active {
+    background: #4CAF50 !important;
+    border-color: #4CAF50 !important;
+}
+
+.ccl-admin-toggle-active .ccl-admin-toggle-slider {
+    transform: translateX(28px) !important;
+}
+
+.ccl-admin-toggle-slider-active {
+    transform: translateX(28px) !important;
+}
+
+.ccl-admin-toggle-label {
+    font-weight: 500;
+    color: #374151;
+    line-height: 32px;
+    vertical-align: middle;
+}
+
+.ccl-admin-toggle:hover {
+    box-shadow: 0 0 0 3px rgba(76, 175, 80, 0.1);
+}
+
+.ccl-admin-toggle:focus-within {
+    box-shadow: 0 0 0 3px rgba(76, 175, 80, 0.2);
+    outline: none;
+}
+
+/* Ensure proper spacing in table cells */
+.ccl-form-table .ccl-admin-toggle {
+    margin-right: 15px;
+}
+
+/* Old Toggle Switch (for backwards compatibility) */
+.ccl-toggle {
+    position: relative;
+    display: inline-block;
+    width: 52px;
+    height: 28px;
+    cursor: pointer;
+}
+
+.ccl-toggle input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+
+.ccl-toggle-slider {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #d1d5db;
+    transition: 0.3s ease;
+    border-radius: 28px;
+}
+
+.ccl-toggle-slider:before {
+    position: absolute;
+    content: "";
+    height: 20px;
+    width: 20px;
+    left: 4px;
+    bottom: 4px;
+    background-color: white;
+    transition: 0.3s ease;
+    border-radius: 50%;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.ccl-toggle input:checked + .ccl-toggle-slider {
+    background-color: #4CAF50;
+}
+
+.ccl-toggle input:checked + .ccl-toggle-slider:before {
+    transform: translateX(24px);
+}
+
+.ccl-toggle:focus-within .ccl-toggle-slider {
+    box-shadow: 0 0 0 3px rgba(76, 175, 80, 0.08);
+}
+
+/* Color Picker */
+.wp-picker-container .wp-color-result {
+    border-radius: 8px;
+    border: 1px solid #d1d5db;
+    height: 32px;
+    transition: all 0.2s ease;
+}
+
+.wp-picker-container .wp-color-result:focus {
+    border-color: #4CAF50;
+    box-shadow: 0 0 0 3px rgba(76, 175, 80, 0.08);
+}
+
+/* Save Button */
+.ccl-save-button {
+    background: #4CAF50 !important;
+    border: 1px solid #4CAF50 !important;
+    color: white !important;
+    padding: 12px 24px !important;
+    font-size: 14px !important;
+    font-weight: 500 !important;
+    border-radius: 8px !important;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    text-shadow: none !important;
+    box-shadow: none !important;
+    margin-top: 20px;
+}
+
+.ccl-save-button:hover {
+    background: #45a049 !important;
+    border-color: #45a049 !important;
+    transform: translateY(-1px);
+    box-shadow: 0 4px 12px rgba(76, 175, 80, 0.15) !important;
+}
+
+.ccl-save-button:focus {
+    outline: none !important;
+    box-shadow: 0 0 0 3px rgba(76, 175, 80, 0.2) !important;
+}
+
+/* Sidebar */
+.ccl-admin-box {
+    background: white;
+    border-radius: 12px;
+    padding: 24px;
+    margin-bottom: 20px;
+    border: 1px solid #e5e7eb;
+}
+
+.ccl-admin-box h3 {
+    margin: 0 0 12px;
+    color: #111827;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.ccl-admin-box p {
+    margin: 0 0 16px;
+    color: #6b7280;
+    line-height: 1.5;
+    font-size: 14px;
+}
+
+.ccl-admin-box .button {
+    border-radius: 8px;
+    padding: 10px 16px;
+    font-weight: 500;
+    text-decoration: none;
+    transition: all 0.2s ease;
+    font-size: 14px;
+}
+
+.ccl-admin-box .button-secondary {
+    border: 1px solid #d1d5db;
+    color: #374151;
+    background: white;
+}
+
+.ccl-admin-box .button-secondary:hover {
+    background: #f9fafb;
+    border-color: #9ca3af;
+    color: #111827;
+}
+
+/* Responsive Design */
+@media (max-width: 1200px) {
+    .ccl-admin-layout {
+        flex-direction: column;
+        gap: 24px;
+    }
+    
+    .ccl-admin-sidebar {
+        width: 100%;
+        display: flex;
+        gap: 20px;
+    }
+    
+    .ccl-admin-box {
+        flex: 1;
+        margin-bottom: 0;
+    }
+}
+
+@media (max-width: 768px) {
+    .ccl-admin-header {
+        padding: 24px;
+        margin: 10px 0 24px 0;
+    }
+    
+    .ccl-admin-header h1 {
+        font-size: 20px;
+    }
+    
+    .ccl-form-table th,
+    .ccl-form-table td {
+        display: block;
+        width: 100%;
+        padding: 16px 20px;
+    }
+    
+    .ccl-form-table th {
+        border-bottom: none;
+        padding-bottom: 8px;
+        background: transparent;
+        font-weight: 500;
+    }
+    
+    .ccl-form-table td {
+        padding-top: 8px;
+    }
+    
+    .regular-text,
+    .large-text {
+        max-width: 100%;
+    }
+    
+    .ccl-admin-sidebar {
+        flex-direction: column;
+    }
+    
+    .ccl-section-description {
+        padding: 12px 20px 0;
+    }
+}
+
+/* WordPress Admin Compatibility */
+.wp-admin .ccl-settings-section h2 {
+    font-size: 16px;
+    line-height: 1.3;
+}
+
+.wp-admin .ccl-admin-header h1 {
+    line-height: 1.3;
+}
+
+/* Success Messages */
+.notice.notice-success {
+    border-left-color: #4CAF50;
+    background: #f0f9f0;
+    border-radius: 8px;
+    border-left-width: 4px;
+}
+
+.notice.notice-success p {
+    color: #2e7d32;
+}
+
+/* Additional header styles for compatibility */
+.ccl-admin-header {
+    background: #4CAF50;
+    color: white;
+    padding: 32px 40px;
+    border-radius: 12px;
+    margin-bottom: 32px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.ccl-admin-header h1 {
+    margin: 0 0 8px;
+    font-size: 24px;
+    font-weight: 500;
+    color: white;
+    letter-spacing: -0.02em;
+}
+
+.ccl-admin-header p {
+    margin: 0;
+    font-size: 15px;
+    opacity: 0.85;
+    font-weight: 400;
+    line-height: 1.5;
+}
+
+.ccl-admin-content {
+    display: flex;
+    gap: 32px;
+    align-items: flex-start;
+}
+
+.ccl-admin-main {
+    flex: 1;
+}
+
+.ccl-admin-sidebar {
+    width: 320px;
+    flex-shrink: 0;
+}
+
+/* Form Layout */
+.form-table {
+    background: white;
+    border-radius: 12px;
+    border: 1px solid #e5e7eb;
+    margin-bottom: 24px;
+    overflow: hidden;
+}
+
+.form-table th {
+    background: #f9fafb;
+    border-bottom: 1px solid #e5e7eb;
+    padding: 24px;
+    font-weight: 500;
+    color: #374151;
+    vertical-align: top;
+    width: 220px;
+    font-size: 14px;
+}
+
+.form-table td {
+    padding: 24px;
+    border-bottom: 1px solid #f3f4f6;
+    vertical-align: top;
+}
+
+.form-table tr:last-child th,
+.form-table tr:last-child td {
+    border-bottom: none;
+}
+
+/* Section Headers */
+h2.hndle,
+h3.hndle {
+    background: #111827;
+    color: white;
+    padding: 16px 24px;
+    margin: 0 0 0px;
+    border-radius: 12px 12px 0 0;
+    font-size: 16px;
+    font-weight: 500;
+    letter-spacing: -0.01em;
+}
+
+/* Error Messages */
+.notice.notice-error {
+    border-left-color: #ef4444;
+    background: #fef2f2;
+    border-radius: 8px;
+    border-left-width: 4px;
+}
+
+.notice.notice-error p {
+    color: #dc2626;
+}
+
+/* Loading States */
+.ccl-loading {
+    opacity: 0.6;
+    pointer-events: none;
+    position: relative;
+}
+
+.ccl-loading::after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 16px;
+    height: 16px;
+    margin: -8px 0 0 -8px;
+    border: 2px solid #4CAF50;
+    border-top: 2px solid transparent;
+    border-radius: 50%;
+    animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
+/* Character Counter */
+.character-counter {
+    font-size: 12px;
+    color: #6b7280;
+    margin-top: 4px;
+    text-align: right;
+}
+
+.character-counter.warning {
+    color: #f59e0b;
+}
+
+.character-counter.error {
+    color: #ef4444;
+}
+
+/* Tooltips */
+.ccl-tooltip {
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    background: #6b7280;
+    color: white;
+    border-radius: 50%;
+    text-align: center;
+    font-size: 10px;
+    line-height: 16px;
+    margin-left: 8px;
+    cursor: help;
+    transition: all 0.2s ease;
+}
+
+.ccl-tooltip:hover {
+    background: #4b5563;
+}
+
+.ccl-tooltip-content {
+    position: absolute;
+    background: #111827;
+    color: white;
+    padding: 8px 12px;
+    border-radius: 6px;
+    font-size: 12px;
+    white-space: nowrap;
+    z-index: 9999;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+}
+
+/* Field Descriptions */
+.ccl-field-description {
+    font-size: 13px;
+    color: #6b7280;
+    margin-top: 8px;
+    line-height: 1.4;
+}
+
+/* Animation for smooth transitions */
+@keyframes toggle-on {
+    from { transform: translateX(0); }
+    to { transform: translateX(28px); }
+}
+
+@keyframes toggle-off {
+    from { transform: translateX(28px); }
+    to { transform: translateX(0); }
+}
+
+/* Disabled state (if needed) */
+.ccl-admin-toggle.disabled {
+    opacity: 0.6;
+    cursor: not-allowed;
+    pointer-events: none;
+}
+
+/* High contrast mode support */
+@media (prefers-contrast: high) {
+    .ccl-admin-toggle {
+        border: 2px solid #000;
+    }
+    
+    .ccl-admin-toggle-active {
+        background: #000 !important;
+        border-color: #000 !important;
+    }
+    
+    .ccl-admin-toggle-slider {
+        border: 1px solid #000;
+    }
+}
+
+/* Reduced motion support */
+@media (prefers-reduced-motion: reduce) {
+    .ccl-admin-toggle,
+    .ccl-admin-toggle-slider {
+        transition: none;
+    }
+    
+    .ccl-admin-toggle-slider {
+        animation: none;
+    }
+    
+    .ccl-loading::after {
+        animation: none;
+    }
+}

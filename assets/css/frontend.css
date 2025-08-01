@@ -1,0 +1,382 @@
+/* Cookie Consent Lite - Frontend Styles */
+/* Modern, clean styling for banner and modal */
+
+/* ========================================
+   BANNER STYLES
+   ======================================== */
+
+.ccl-nuclear-banner {
+    position: fixed !important;
+    left: 0 !important;
+    right: 0 !important;
+    background: #ffffff !important;
+    color: #333333 !important;
+    border: 1px solid #ddd !important;
+    padding: 20px !important;
+    z-index: 999999 !important;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif !important;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.15) !important;
+    display: block !important;
+    animation: ccl-slide-in 0.3s ease-out !important;
+}
+
+.ccl-nuclear-banner.ccl-banner-top { 
+    top: 0 !important; 
+}
+
+.ccl-nuclear-banner.ccl-banner-bottom { 
+    bottom: 0 !important; 
+}
+
+.ccl-nuclear-banner .ccl-banner-container { 
+    max-width: 1200px !important; 
+    margin: 0 auto !important; 
+}
+
+.ccl-nuclear-banner .ccl-banner-content { 
+    display: flex !important; 
+    align-items: center !important; 
+    gap: 24px !important; 
+    flex-wrap: wrap !important; 
+}
+
+.ccl-nuclear-banner .ccl-banner-text { 
+    flex: 1 !important; 
+    font-size: 15px !important; 
+    line-height: 1.6 !important; 
+    min-width: 300px !important;
+}
+
+.ccl-nuclear-banner .ccl-banner-buttons { 
+    display: flex !important; 
+    gap: 12px !important; 
+    flex-wrap: wrap !important;
+}
+
+.ccl-nuclear-banner .ccl-btn { 
+    padding: 12px 24px !important; 
+    border: none !important; 
+    border-radius: 6px !important; 
+    cursor: pointer !important; 
+    font-size: 14px !important; 
+    font-weight: 600 !important; 
+    transition: all 0.2s ease !important;
+    min-width: 100px !important;
+    text-decoration: none !important;
+    display: inline-block !important;
+    text-align: center !important;
+    line-height: 1 !important;
+    vertical-align: middle !important;
+    user-select: none !important;
+    -webkit-appearance: none !important;
+    -moz-appearance: none !important;
+    appearance: none !important;
+}
+
+.ccl-nuclear-banner .ccl-btn:hover {
+    transform: translateY(-1px) !important;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.15) !important;
+}
+
+.ccl-nuclear-banner .ccl-btn-accept { 
+    background: #4CAF50 !important; 
+    color: white !important; 
+}
+
+.ccl-nuclear-banner .ccl-btn-reject { 
+    background: #f44336 !important; 
+    color: white !important; 
+}
+
+.ccl-nuclear-banner .ccl-btn-settings { 
+    background: #6c757d !important; 
+    color: white !important; 
+}
+
+.ccl-nuclear-banner .ccl-learn-more-link { 
+    color: #4CAF50 !important; 
+    text-decoration: underline !important; 
+    margin-left: 8px !important; 
+}
+
+/* ========================================
+   MODAL STYLES
+   ======================================== */
+
+.ccl-nuclear-modal {
+    position: fixed !important;
+    top: 0 !important;
+    left: 0 !important;
+    right: 0 !important;
+    bottom: 0 !important;
+    z-index: 9999999 !important;
+    background: rgba(0, 0, 0, 0.7) !important;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif !important;
+}
+
+.ccl-nuclear-modal .ccl-modal-overlay {
+    width: 100% !important;
+    height: 100% !important;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    padding: 20px !important;
+    box-sizing: border-box !important;
+}
+
+.ccl-nuclear-modal .ccl-modal-content {
+    background: white !important;
+    border-radius: 12px !important;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.3) !important;
+    max-width: 500px !important;
+    width: 100% !important;
+    max-height: 80vh !important;
+    overflow: hidden !important;
+    display: flex !important;
+    flex-direction: column !important;
+}
+
+.ccl-nuclear-modal .ccl-modal-header {
+    padding: 20px !important;
+    border-bottom: 1px solid #eee !important;
+    display: flex !important;
+    justify-content: space-between !important;
+    align-items: center !important;
+}
+
+.ccl-nuclear-modal .ccl-modal-header h2 {
+    margin: 0 !important;
+    font-size: 20px !important;
+    color: #333 !important;
+}
+
+.ccl-nuclear-modal .ccl-modal-close {
+    background: #f5f5f5 !important;
+    border: 1px solid #ddd !important;
+    width: 30px !important;
+    height: 30px !important;
+    border-radius: 5px !important;
+    cursor: pointer !important;
+    font-size: 16px !important;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+}
+
+.ccl-nuclear-modal .ccl-modal-body {
+    padding: 20px !important;
+    flex: 1 !important;
+    overflow-y: auto !important;
+}
+
+.ccl-nuclear-modal .ccl-modal-body p {
+    margin: 0 0 20px !important;
+    color: #666 !important;
+    line-height: 1.5 !important;
+}
+
+.ccl-nuclear-modal .ccl-category-item {
+    border: 1px solid #eee !important;
+    border-radius: 8px !important;
+    padding: 15px !important;
+    margin-bottom: 15px !important;
+}
+
+.ccl-nuclear-modal .ccl-category-header {
+    display: flex !important;
+    justify-content: space-between !important;
+    align-items: center !important;
+    width: 100% !important;
+}
+
+.ccl-nuclear-modal .ccl-category-info {
+    flex: 1 !important;
+    margin-right: 15px !important;
+}
+
+.ccl-nuclear-modal .ccl-category-info h3 {
+    margin: 0 0 5px !important;
+    font-size: 16px !important;
+    color: #333 !important;
+}
+
+.ccl-nuclear-modal .ccl-category-info p {
+    margin: 0 !important;
+    font-size: 14px !important;
+    color: #666 !important;
+}
+
+/* ========================================
+   TOGGLE SWITCHES
+   ======================================== */
+
+.ccl-nuclear-modal .ccl-toggle {
+    position: relative !important;
+    width: 50px !important;
+    height: 24px !important;
+    background: #ccc !important;
+    border-radius: 24px !important;
+    cursor: pointer !important;
+    transition: background-color 0.3s ease !important;
+    display: block !important;
+    border: 2px solid #ddd !important;
+    flex-shrink: 0 !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    box-sizing: border-box !important;
+}
+
+.ccl-nuclear-modal .ccl-toggle-disabled {
+    background: #4CAF50 !important;
+    cursor: not-allowed !important;
+    border-color: #4CAF50 !important;
+}
+
+.ccl-nuclear-modal .ccl-toggle input {
+    opacity: 0 !important;
+    width: 0 !important;
+    height: 0 !important;
+    position: absolute !important;
+}
+
+.ccl-nuclear-modal .ccl-toggle-slider {
+    position: absolute !important;
+    top: 2px !important;
+    left: 2px !important;
+    width: 18px !important;
+    height: 18px !important;
+    background: white !important;
+    border-radius: 50% !important;
+    transition: left 0.3s ease !important;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.2) !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    transform: none !important;
+}
+
+.ccl-nuclear-modal .ccl-toggle-active .ccl-toggle-slider {
+    left: 28px !important;
+    transform: none !important;
+}
+
+.ccl-nuclear-modal .ccl-toggle input:checked + .ccl-toggle-slider {
+    left: 28px !important;
+    transform: none !important;
+}
+
+.ccl-nuclear-modal .ccl-toggle.ccl-toggle-checked .ccl-toggle-slider {
+    left: 28px !important;
+    transform: none !important;
+}
+
+.ccl-nuclear-modal .ccl-toggle.ccl-toggle-checked {
+    background: #4CAF50 !important;
+    border-color: #4CAF50 !important;
+}
+
+.ccl-nuclear-modal .ccl-toggle.ccl-toggle-active {
+    background: #4CAF50 !important;
+    background-color: #4CAF50 !important;
+    border-color: #4CAF50 !important;
+}
+
+.ccl-nuclear-modal .ccl-toggle.ccl-toggle-active .ccl-toggle-slider {
+    left: 28px !important;
+    transform: none !important;
+}
+
+/* ========================================
+   MODAL FOOTER
+   ======================================== */
+
+.ccl-nuclear-modal .ccl-modal-footer {
+    padding: 20px !important;
+    border-top: 1px solid #eee !important;
+    display: flex !important;
+    gap: 10px !important;
+    justify-content: flex-end !important;
+}
+
+.ccl-nuclear-modal .ccl-modal-footer .ccl-btn {
+    background: #dc3545 !important;
+    color: white !important;
+    border: none !important;
+    padding: 10px 20px !important;
+    border-radius: 5px !important;
+    cursor: pointer !important;
+    font-size: 14px !important;
+}
+
+.ccl-nuclear-modal .ccl-modal-footer .ccl-btn-settings {
+    background: #6c757d !important;
+}
+
+.ccl-nuclear-modal .ccl-modal-footer .ccl-btn-accept {
+    background: #4CAF50 !important;
+}
+
+/* ========================================
+   ANIMATIONS
+   ======================================== */
+
+@keyframes ccl-slide-in {
+    from { 
+        opacity: 0; 
+        transform: translateY(20px); 
+    }
+    to { 
+        opacity: 1; 
+        transform: translateY(0); 
+    }
+}
+
+@keyframes ccl-slide-out {
+    from { 
+        opacity: 1; 
+        transform: translateY(0); 
+    }
+    to { 
+        opacity: 0; 
+        transform: translateY(20px); 
+    }
+}
+
+/* ========================================
+   RESPONSIVE DESIGN
+   ======================================== */
+
+@media (max-width: 768px) {
+    .ccl-nuclear-banner .ccl-banner-content { 
+        flex-direction: column !important; 
+        text-align: center !important; 
+        gap: 16px !important;
+    }
+    
+    .ccl-nuclear-banner .ccl-banner-text { 
+        flex: none !important; 
+        min-width: auto !important;
+    }
+    
+    .ccl-nuclear-banner .ccl-banner-buttons {
+        width: 100% !important;
+        justify-content: center !important;
+    }
+    
+    .ccl-nuclear-banner .ccl-btn {
+        flex: 1 !important;
+        min-width: auto !important;
+    }
+    
+    .ccl-nuclear-modal .ccl-modal-overlay {
+        padding: 10px !important;
+    }
+    
+    .ccl-nuclear-modal .ccl-modal-footer {
+        flex-direction: column !important;
+        gap: 8px !important;
+    }
+    
+    .ccl-nuclear-modal .ccl-modal-footer .ccl-btn {
+        width: 100% !important;
+    }
+}

@@ -10,7 +10,7 @@ Stable tag: 1.0.0
 Requires PHP: 7.4
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
-**Created by [Opt-4]([https://yourdomain.com](https://www.opt-4.co.uk/))**
+
 
 A lightweight, GDPR & CCPA compliant cookie consent banner with nuclear cache-busting technology that works with any caching setup.
 

@@ -1,0 +1,264 @@
+# Cookie Consent Lite
+# Copyright (C) 2024 Cookie Consent Lite
+# This file is distributed under the same license as the Cookie Consent Lite package.
+msgid ""
+msgstr ""
+"Project-Id-Version: Cookie Consent Lite 1.0.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/cookie-consent-lite\n"
+"POT-Creation-Date: 2024-01-01 12:00+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2024-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"X-Generator: WP-CLI 2.8.1\n"
+"X-Domain: cookie-consent-lite\n"
+
+#: cookie-consent-lite.php:45
+msgid "This website uses cookies to enhance your experience, analyze traffic, and display personalized content. You can accept all cookies, reject non-essential ones, or manage your preferences via Cookie Settings."
+msgstr ""
+
+#: cookie-consent-lite.php:46
+msgid "Accept All"
+msgstr ""
+
+#: cookie-consent-lite.php:47
+msgid "Reject"
+msgstr ""
+
+#: cookie-consent-lite.php:48
+msgid "Cookie Settings"
+msgstr ""
+
+#: cookie-consent-lite.php:49
+msgid "Learn more"
+msgstr ""
+
+#: cookie-consent-lite.php:163
+msgid "Security check failed"
+msgstr ""
+
+#: cookie-consent-lite.php:185
+msgid "Consent preferences saved successfully"
+msgstr ""
+
+#: includes/class-ccl-admin.php:24
+msgid "Cookie Consent Lite Settings"
+msgstr ""
+
+#: includes/class-ccl-admin.php:25
+msgid "Cookie Consent"
+msgstr ""
+
+#: includes/class-ccl-admin.php:50
+msgid "General Settings"
+msgstr ""
+
+#: includes/class-ccl-admin.php:56
+msgid "Enable Banner"
+msgstr ""
+
+#: includes/class-ccl-admin.php:64
+msgid "Banner Text"
+msgstr ""
+
+#: includes/class-ccl-admin.php:72
+msgid "Banner Position"
+msgstr ""
+
+#: includes/class-ccl-admin.php:78
+msgid "Top"
+msgstr ""
+
+#: includes/class-ccl-admin.php:79
+msgid "Bottom"
+msgstr ""
+
+#: includes/class-ccl-admin.php:86
+msgid "Button Text & Visibility"
+msgstr ""
+
+#: includes/class-ccl-admin.php:92
+msgid "Accept Button Label"
+msgstr ""
+
+#: includes/class-ccl-admin.php:100
+msgid "Reject Button Label"
+msgstr ""
+
+#: includes/class-ccl-admin.php:108
+msgid "Show \"Reject\" Button"
+msgstr ""
+
+#: includes/class-ccl-admin.php:116
+msgid "Show \"Cookie Settings\" Button"
+msgstr ""
+
+#: includes/class-ccl-admin.php:124
+msgid "Cookie Settings Button Label"
+msgstr ""
+
+#: includes/class-ccl-admin.php:132
+msgid "Learn More Link Text"
+msgstr ""
+
+#: includes/class-ccl-admin.php:140
+msgid "Learn More URL"
+msgstr ""
+
+#: includes/class-ccl-admin.php:148
+msgid "Cookie Categories"
+msgstr ""
+
+#: includes/class-ccl-admin.php:154
+msgid "Enable Analytics Category"
+msgstr ""
+
+#: includes/class-ccl-admin.php:162
+msgid "Enable Marketing Category"
+msgstr ""
+
+#: includes/class-ccl-admin.php:170
+msgid "Enable Preferences Category"
+msgstr ""
+
+#: includes/class-ccl-admin.php:178
+msgid "Advanced Settings"
+msgstr ""
+
+#: includes/class-ccl-admin.php:184
+msgid "Consent Expiration (days)"
+msgstr ""
+
+#: includes/class-ccl-admin.php:192
+msgid "Styling Options"
+msgstr ""
+
+#: includes/class-ccl-admin.php:198
+msgid "Primary Button Color"
+msgstr ""
+
+#: includes/class-ccl-admin.php:206
+msgid "Secondary Button Color"
+msgstr ""
+
+#: includes/class-ccl-admin.php:214
+msgid "Banner Background Color"
+msgstr ""
+
+#: includes/class-ccl-admin.php:222
+msgid "Text Color"
+msgstr ""
+
+#: includes/class-ccl-admin.php:274
+msgid "Configure your cookie consent banner for GDPR & CCPA compliance."
+msgstr ""
+
+#: includes/class-ccl-admin.php:285
+msgid "Save Changes"
+msgstr ""
+
+#: includes/class-ccl-admin.php:290
+msgid "Preview"
+msgstr ""
+
+#: includes/class-ccl-admin.php:291
+msgid "Visit your website to see the cookie banner in action."
+msgstr ""
+
+#: includes/class-ccl-admin.php:295
+msgid "View Website"
+msgstr ""
+
+#: includes/class-ccl-admin.php:300
+msgid "Need Help?"
+msgstr ""
+
+#: includes/class-ccl-admin.php:301
+msgid "Check out our documentation for setup guides and troubleshooting."
+msgstr ""
+
+#: includes/class-ccl-admin.php:305
+msgid "Documentation"
+msgstr ""
+
+#: includes/class-ccl-admin.php:314
+msgid "Configure the basic settings for your cookie consent banner."
+msgstr ""
+
+#: includes/class-ccl-admin.php:318
+msgid "Customize button labels and visibility options."
+msgstr ""
+
+#: includes/class-ccl-admin.php:322
+msgid "Enable or disable specific cookie categories."
+msgstr ""
+
+#: includes/class-ccl-admin.php:326
+msgid "Advanced configuration options."
+msgstr ""
+
+#: includes/class-ccl-admin.php:330
+msgid "Customize the appearance of your cookie banner."
+msgstr ""
+
+#: includes/class-ccl-admin.php:444
+msgid "Settings"
+msgstr ""
+
+#: includes/class-ccl-settings.php:23
+msgid "Essential"
+msgstr ""
+
+#: includes/class-ccl-settings.php:24
+msgid "Required for the website to function properly. Cannot be disabled."
+msgstr ""
+
+#: includes/class-ccl-settings.php:29
+msgid "Analytics"
+msgstr ""
+
+#: includes/class-ccl-settings.php:30
+msgid "Help us understand how visitors interact with our website."
+msgstr ""
+
+#: includes/class-ccl-settings.php:36
+msgid "Marketing"
+msgstr ""
+
+#: includes/class-ccl-settings.php:37
+msgid "Used to track visitors across websites for advertising purposes."
+msgstr ""
+
+#: includes/class-ccl-settings.php:43
+msgid "Preferences"
+msgstr ""
+
+#: includes/class-ccl-settings.php:44
+msgid "Remember your settings and preferences for future visits."
+msgstr ""
+
+#: templates/modal.php:25
+msgid "Manage Your Cookie Preferences"
+msgstr ""
+
+#: templates/modal.php:31
+msgid "We use cookies to personalize content, provide social media features, and analyze our traffic. You can choose which categories to allow."
+msgstr ""
+
+#: templates/modal.php:48
+msgid "(Always Active)"
+msgstr ""
+
+#: templates/modal.php:62
+msgid "Reject All"
+msgstr ""
+
+#: templates/modal.php:67
+msgid "Save Preferences"
+msgstr ""
+
+#: templates/modal.php:72
+msgid "Accept All"
+msgstr ""

@@ -1,231 +1,170 @@
-=== Cookie Consent Lite – GDPR & CCPA Compliant ===
-Contributors: opt4
-Plugin URI: https://www.opt-4.co.uk/cookie-consent-lite-gdpr-ccpa-compliant/
-Author URI: https://www.opt-4.co.uk/
-Donate link: https://www.opt-4.co.uk/
-Tags: cookie consent, gdpr, ccpa, privacy, cookies, compliance, banner, modal, cache
-Requires at least: 5.0
-Tested up to: 6.4
-Stable tag: 1.0.0
-Requires PHP: 7.4
-License: GPLv2 or later
-License URI: https://www.gnu.org/licenses/gpl-2.0.html
-
+# Cookie Consent Lite – GDPR & CCPA Compliant
 
 A lightweight, GDPR & CCPA compliant cookie consent banner with nuclear cache-busting technology that works with any caching setup.
 
-== Description ==
+## 🔧 Plugin Details
+
+- **Contributors**: opt4  
+- **Plugin URI**: [Cookie Consent Lite](https://www.opt-4.co.uk/cookie-consent-lite-gdpr-ccpa-compliant/)  
+- **Author URI**: [Opt-4](https://www.opt-4.co.uk/)  
+- **Donate link**: [Donate](https://www.opt-4.co.uk/)  
+- **Tags**: cookie consent, gdpr, ccpa, privacy, cookies, compliance, banner, modal, cache  
+- **Requires at least**: 5.0  
+- **Tested up to**: 6.4  
+- **Stable tag**: 1.0.0  
+- **Requires PHP**: 7.4  
+- **License**: GPLv2 or later  
+- **License URI**: [GPLv2](https://www.gnu.org/licenses/gpl-2.0.html)
+
+---
+
+## 📖 Description
 
 **Cookie Consent Lite** is a powerful yet lightweight solution for GDPR and CCPA compliance. Unlike other cookie consent plugins that struggle with caching, our plugin features revolutionary **Nuclear Cache-Busting Technology** that ensures your cookie banner works perfectly with any caching system.
 
-### 🚀 Key Features
+---
 
-* **Nuclear Cache-Busting Technology** - Works with ANY caching plugin or CDN
-* **GDPR & CCPA Compliant** - Legally compliant cookie consent management
-* **Modern, Responsive Design** - Beautiful interface that works on all devices
-* **Cookie Categories** - Analytics, Marketing, and Preferences categories
-* **Customizable Styling** - Colors, positions, and button labels
-* **Professional Admin Interface** - Modern toggle switches and intuitive settings
-* **Aggressive Cache Clearing** - Automatically clears all major caching systems
-* **Zero Configuration** - Works out of the box with sensible defaults
+## 🚀 Key Features
 
-### 🎯 Why Choose Cookie Consent Lite?
+- **Nuclear Cache-Busting Technology** – Works with ANY caching plugin or CDN  
+- **GDPR & CCPA Compliant**  
+- **Modern, Responsive Design**  
+- **Cookie Categories** – Analytics, Marketing, Preferences  
+- **Customizable Styling**  
+- **Professional Admin Interface**  
+- **Aggressive Cache Clearing**  
+- **Zero Configuration**
 
-**The Cache Problem Solved**: Most cookie consent plugins fail when used with caching plugins like WP Rocket, W3 Total Cache, or CDNs like Cloudflare. Our plugin uses a revolutionary AJAX-based approach that bypasses ALL caching layers, ensuring your banner always displays when needed.
+---
 
-**Professional Grade**: Built with enterprise-level code quality, following WordPress coding standards and best practices.
+## 🎯 Why Choose Cookie Consent Lite?
 
-**Lightweight**: Minimal impact on your site's performance while providing maximum functionality.
+- **Cache Problem Solved** – Compatible with WP Rocket, W3 Total Cache, Cloudflare, and more  
+- **Professional Grade** – Enterprise-level code quality  
+- **Lightweight** – Minimal impact on performance
 
-### 🔧 Supported Cache Systems
+---
 
-* WP Rocket
-* W3 Total Cache
-* WP Super Cache
-* LiteSpeed Cache
-* WP Fastest Cache
-* Autoptimize
-* SG Optimizer
-* Breeze
-* Cloudflare CDN
-* Redis
-* Memcached
-* OPcache
+## 🔧 Supported Cache Systems
 
-### 🎨 Customization Options
+WP Rocket, W3 Total Cache, WP Super Cache, LiteSpeed Cache, WP Fastest Cache, Autoptimize, SG Optimizer, Breeze, Cloudflare, Redis, Memcached, OPcache
 
-* **Colors**: Primary, secondary, background, and text colors
-* **Position**: Top or bottom banner placement
-* **Buttons**: Show/hide reject and settings buttons
-* **Text**: Fully customizable button labels and banner text
-* **Categories**: Enable/disable cookie categories
-* **Expiration**: Set custom consent expiration periods
+---
 
-### 🌐 GDPR & CCPA Features
+## 🎨 Customization Options
 
-* **Granular Control**: Users can accept/reject specific cookie categories
-* **Clear Information**: Transparent descriptions of cookie purposes
-* **Easy Management**: Users can change preferences anytime
-* **Compliance**: Meets legal requirements for data protection
+- Colors, position, button labels, banner text  
+- Enable/disable cookie categories  
+- Consent expiration settings
 
-### 🛠️ Developer Friendly
+---
 
-* **Clean Code**: Well-structured, documented codebase
-* **Hooks & Filters**: Extensible for custom functionality
-* **API Functions**: Check consent status programmatically
-* **Debug Tools**: Built-in testing and debugging features
+## 🌐 GDPR & CCPA Features
 
-== Installation ==
+- Granular category control  
+- Transparent descriptions  
+- Consent withdraw options  
+- Full legal compliance
 
-### Automatic Installation
+---
 
-1. Log in to your WordPress admin panel
-2. Go to Plugins → Add New
-3. Search for "Cookie Consent Lite"
-4. Click "Install Now" and then "Activate"
-5. Go to Settings → Cookie Consent to configure
+## 🛠️ Developer Friendly
 
-### Manual Installation
+- Clean code with hooks & filters  
+- JavaScript & PHP APIs  
+- Debug mode for testing
 
-1. Download the plugin ZIP file
-2. Upload to your `/wp-content/plugins/` directory
-3. Extract the files
-4. Activate the plugin through the 'Plugins' menu
-5. Go to Settings → Cookie Consent to configure
+---
 
-### Configuration
+## 📦 Installation
 
-1. **Enable the Banner**: Turn on the cookie consent banner
-2. **Customize Text**: Edit the banner message and button labels
-3. **Set Categories**: Enable Analytics, Marketing, and/or Preferences cookies
-4. **Style Colors**: Choose colors that match your brand
-5. **Test**: Visit your website in incognito mode to see the banner
+### Automatic
+1. Go to Plugins → Add New  
+2. Search for “Cookie Consent Lite”  
+3. Install and Activate  
+4. Configure under Settings → Cookie Consent
 
-== Frequently Asked Questions ==
+### Manual
+1. Upload ZIP to `/wp-content/plugins/`  
+2. Extract files  
+3. Activate via WordPress admin
 
-= Does this work with caching plugins? =
+---
 
-**Yes!** This is our main strength. Cookie Consent Lite uses Nuclear Cache-Busting Technology that works with ALL caching plugins and CDNs, including WP Rocket, W3 Total Cache, Cloudflare, and more.
+## ❓ Frequently Asked Questions
 
-= Is this GDPR compliant? =
+**Does this work with caching plugins?**  
+Yes — it’s designed specifically for that.
 
-Yes, the plugin is designed to meet GDPR requirements with granular cookie categories, clear consent options, and the ability for users to withdraw consent at any time.
+**Is this GDPR/CCPA compliant?**  
+Absolutely.
 
-= Does it work with CCPA? =
+**Can I customize it?**  
+Yes, fully customizable.
 
-Yes, the plugin supports CCPA compliance with options to reject non-essential cookies and clear privacy controls.
+**Does it slow down the site?**  
+No — it's lightweight and async-loaded.
 
-= Will it slow down my website? =
+---
 
-No, the plugin is optimized for performance. The banner loads asynchronously and has minimal impact on page load times.
+## 🖼️ Screenshots
 
-= Can I customize the appearance? =
+1. Cookie Consent Banner  
+2. Preferences Modal  
+3. Admin Settings Page  
+4. Button Config Panel
 
-Absolutely! You can customize colors, button labels, banner text, position, and more through the admin interface.
+---
 
-= Does it work on mobile devices? =
+## 📝 Changelog
 
-Yes, the plugin is fully responsive and works perfectly on all devices and screen sizes.
+### 1.0.0
+- Initial release  
+- Full compliance features  
+- Cache-busting tech  
+- Developer APIs  
+- Debug tools
 
-= Can I disable specific cookie categories? =
+---
 
-Yes, you can enable/disable Analytics, Marketing, and Preferences categories individually through the admin settings.
-
-= How do I check if a user has given consent? =
-
-You can use the JavaScript API: `CookieConsentLite.hasConsent('analytics')` or the PHP function `CCL_Frontend::has_category_consent('analytics')`.
-
-= What happens when users reject cookies? =
-
-The plugin sets cookies to remember the user's choice and blocks non-essential scripts from loading based on their preferences.
-
-= Can I reset all cookie consent data? =
-
-Yes, there's a debug mode with reset functionality for testing purposes.
-
-== Screenshots ==
-
-1. **Cookie Consent Banner** - Clean, responsive banner that appears at the bottom of your website with clear Accept All, Reject, and Cookie Settings buttons.
-
-2. **Cookie Preferences Modal** - Detailed modal allowing users to control specific cookie categories (Essential, Analytics, Marketing) with intuitive toggle switches.
-
-3. **Admin Settings Interface** - Modern admin page with clean white header, professional logo placement, and organized settings sections with toggle switches.
-
-4. **Button Configuration Panel** - Comprehensive button customization options with real-time character counters, toggle switches for visibility, and professional form layout.
-
-== Changelog ==
-
-= 1.0.0 =
-* Initial release
-* Nuclear Cache-Busting Technology
-* GDPR & CCPA compliance features
-* Modern responsive design
-* Support for all major caching plugins
-* Customizable colors and text
-* Cookie categories (Analytics, Marketing, Preferences)
-* Professional admin interface with toggle switches
-* Aggressive cache clearing system
-* Debug tools and testing features
-
-== Upgrade Notice ==
-
-= 1.0.0 =
-Initial release of Cookie Consent Lite with revolutionary cache-busting technology.
-
-== Developer Documentation ==
+## 🔧 Developer Documentation
 
 ### JavaScript API
 
-Check consent status:
-```javascript
-// Check if user has consented to analytics cookies
+```js
 if (CookieConsentLite.hasConsent('analytics')) {
-    // Load analytics scripts
+    // Load analytics
 }
-
-// Get all consent status
 const consent = CookieConsentLite.getConsentStatus();
-console.log(consent.analytics); // true/false
-```
-
-Show preferences modal:
-```javascript
 CookieConsentLite.showPreferences();
 ```
 
 ### PHP Functions
 
-Check consent in PHP:
 ```php
-// Check if user has consented to marketing cookies
 if (CCL_Frontend::has_category_consent('marketing')) {
-    // Execute marketing code
+    // Run marketing code
 }
-```
-
-Load scripts conditionally:
-```php
-// Load script only if user consented to analytics
 CCL_Frontend::load_script_if_consent('analytics', 'https://analytics.example.com/script.js');
 ```
 
 ### Hooks & Filters
 
-Available filters:
-* `ccl_banner_text` - Modify banner text
-* `ccl_button_labels` - Modify button labels
-* `ccl_cookie_categories` - Add custom cookie categories
+- `ccl_banner_text`  
+- `ccl_button_labels`  
+- `ccl_cookie_categories`  
+- `ccl_consent_given`  
+- `ccl_consent_withdrawn`  
+- `ccl_cache_cleared`
 
-Available actions:
-* `ccl_consent_given` - Triggered when consent is given
-* `ccl_consent_withdrawn` - Triggered when consent is withdrawn
-* `ccl_cache_cleared` - Triggered after cache clearing
+---
 
-== Support ==
+## 💬 Support
 
-For support, documentation, and feature requests, please visit:
-[https://www.opt-4.co.uk/](https://www.opt-4.co.uk/)
+Visit [Opt-4](https://www.opt-4.co.uk/) for support and documentation.
 
-== Privacy Policy ==
+---
 
-This plugin stores user consent preferences in cookies and does not collect any personal data. All consent management is handled locally on your website.
+## 🔒 Privacy Policy
+
+This plugin stores cookie preferences locally and does not collect personal data.
